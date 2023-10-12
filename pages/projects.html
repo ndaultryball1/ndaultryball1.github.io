@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="projects.css"/>
+    <title>Publications</title>
+</head>
+<body>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="whats_new.html">Whats new</a>
+        <a href="publications.html">Publications</a>
+        <a href="projects.html">Projects</a>
+    </nav>
+    <hr>
+    <div class="project_list">
+        <h1>Projects</h1>
+        <ul>
+            <li>
+                <h2>BGK</h2>
+                <!-- <p>
+                    Nonequilibrium gas flows, such as those encountered by supersonic vehicles, are not well described by the Navier-Stokes equations of fluid dynamics.
+                    They are instead most accurately modelled by the Boltzmann equation, a kinetic equation for the gas distribution function. 
+                    The most commonly used method to obtain solutions is the Direct Simulation Monte-Carlo (DSMC) method, which can be computationally expensive to carry out in some physical regimes, for example in the upper atmosphere at low gas density. 
+                </p> -->
+                <p>
+                    My main DPhil project is to investigate the use of deep learning to obtain improved approximate solutions from models of gas dynamics such as the BGK equation. 
+                    These models can be simpler and quicker to solve, but miss out some of the detailed physics of the Boltzmann description by making simplifications. 
+                    The goal is to correct for missing physics using machine learning. This involves using neural network closure terms in the equation, and deriving appropriate adjoint equations which are necessary to train the networks.
+                </p>
+                <p>
+                    Collaborators: <a href="https://www.maths.ox.ac.uk/people/justin.sirignano">Justin Sirignano</a>, 
+                    <a href="https://engineering.nd.edu/faculty/jonathan-macart/">Jonathan MacArt</a>, 
+                    <a href="https://aerospace.illinois.edu/directory/profile/mpanesi">Marco Panesi</a> 
+                </p>
+            </li>
+            <li>
+                <h2>DSMC</h2>
+                <p>
+                    I am also using machine learning to enhance DSMC algorithms for the Boltzmann equation.
+                </p>
+            </li>
+            <li>
+                <h2>Deep Learning</h2>
+                <p>
+                    I have also worked on the impact of certain novel activation functions on the sparsity of neural network activations.
+                </p>
+                <p>
+                    Collaborators: <a href="https://ilanprice.github.io/">Ilan Price</a>, 
+                    <a href="https://www.maths.ox.ac.uk/people/samuel.lam">Samuel Lam</a>, 
+                    Adam Christopher Jones, 
+                    <a href="https://www.maths.ox.ac.uk/people/jared.tanner"> Jared Tanner</a>
+                </p>
+
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <hr>
+        <p>Email: nicholas [dot] daultryball [at] maths [dot] ox [dot] ac [dot] uk</p>
+        <p><a href = "https://www.linkedin.com/in/nicholas-daultry-ball-85a53011a/">Linkedin</a></p> 
+        <p><a href="../docs/Resume_CV_ (1).pdf" attributes-list download="CV Nicholas Daultry Ball">CV</a></p>
+        <div>
+            <img 
+                src="../docs/oxford_logo.png"
+                height=50 
+            >
+            <img 
+                src="../docs/cdt_logo.jpg"
+                height=50
+            >
+        </div>
+    </footer>
+</body>
