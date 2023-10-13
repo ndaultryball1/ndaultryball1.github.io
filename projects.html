@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head> 
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="stylesheet" href="projects.css"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="page_styles/projects.css"/>
+    <script src="js/custom_elements.js"></script>
     <title>Publications</title>
 </head>
 <body>
-    <nav>
-        <a href="../index.html">Home</a>
-        <a href="whats_new.html">Whats new</a>
-        <a href="publications.html">Publications</a>
-        <a href="projects.html">Projects</a>
-    </nav>
+    <nav-bar></nav-bar>
     <hr>
     <div class="project_list">
         <h1>Projects</h1>
@@ -55,20 +51,5 @@
             </li>
         </ul>
     </div>
-    <footer>
-        <hr>
-        <p>Email: nicholas [dot] daultryball [at] maths [dot] ox [dot] ac [dot] uk</p>
-        <p><a href = "https://www.linkedin.com/in/nicholas-daultry-ball-85a53011a/">Linkedin</a></p> 
-        <p><a href="../docs/Resume_CV_ (1).pdf" attributes-list download="CV Nicholas Daultry Ball">CV</a></p>
-        <div>
-            <img 
-                src="../docs/oxford_logo.png"
-                height=50 
-            >
-            <img 
-                src="../docs/cdt_logo.jpg"
-                height=50
-            >
-        </div>
-    </footer>
+    <custom-footer></custom-footer>
 </body>
