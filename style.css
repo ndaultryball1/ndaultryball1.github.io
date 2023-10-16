@@ -36,6 +36,10 @@ body {
     padding-left: 2rem;
 }
 
+body img {
+    max-width: 100%
+}
+
 footer {
     padding-top: 0;
     position: sticky;
