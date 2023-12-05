@@ -37,5 +37,3 @@ class Footer extends HTMLElement {
 window.customElements.define('nav-bar', AppHeader)
 
 window.customElements.define('custom-footer', Footer) 
-    
-   
