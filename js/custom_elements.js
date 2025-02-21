@@ -3,7 +3,7 @@ class AppHeader extends HTMLElement {
         this.innerHTML = `
         <nav>
             <a href="index.html">Home</a>
-            <a href="whats_new.html">Whats new</a>
+            <a href="whats_new.html">Whats going on</a>
             <a href="publications.html">Publications</a>
             <a href="projects.html">Projects</a>
         </nav>
