@@ -21,9 +21,7 @@
                     The most commonly used method to obtain solutions is the Direct Simulation Monte-Carlo (DSMC) method, which can be computationally expensive to carry out in some physical regimes, for example in the upper atmosphere at low gas density. 
                 </p> -->
                 <p>
-                    My main DPhil project is to investigate the use of deep learning to obtain improved approximate solutions from models of gas dynamics such as the BGK equation. 
-                    These models can be simpler and quicker to solve, but miss out some of the detailed physics of the Boltzmann description by making simplifications. 
-                    The goal is to correct for missing physics using machine learning. This involves using neural network closure terms in the equation, and deriving appropriate adjoint equations which are necessary to train the networks.
+                    I am using machine learning to obtain improved approximate solutions from models of gas dynamics such as the BGK equation. We aim to find models for the gas collision frequency which are able to accurately reproduce results from higher fidelity methods such as DSMC at a reduced cost.
                 </p>
                 <p>
                     Collaborators: <a href="https://www.maths.ox.ac.uk/people/justin.sirignano">Justin Sirignano</a>, 
@@ -33,15 +31,15 @@
                 </p>
             </li>
             <li>
-                <h2>DSMC</h2>
+                <h2>DSMC and DMS</h2>
                 <p>
-                    I am also using machine learning to enhance and optimise over DSMC methods for the Boltzmann equation. Currently I 
-                    am focussing on the DMS variant of DSMC where the outcome of collisions depends on the trajectories of individual molecules.
-                    This part of the method is computationally expensive and replacing it with a machine learning model could allow faster simulations
-                    of rarefied gas flows with no loss in accuracy.
+                    I am also using machine learning to enhance and optimise over particle methods for rarefied gas dynamics. 
+                    High fidelity methods such as Direct Molecular Simulation can be computationally intensive, requiring expensive classical trajectory calculations. 
+                    We have shown that replacing this part of the method with an appropriately trained neural network allows for significant faster simulations with no loss of accuracy, 
+                    at least for monatomic gases. I am currently interested in extending this method to gases with internal degrees of freedom, for which the relevant models must be significantly more complicated.
                 </p>
             </li>
-            <li>
+            <!-- <li>
                 <h2>Deep Learning</h2>
                 <p>
                     I have also worked on the impact of activation functions on the initialisation of neural networks
@@ -53,7 +51,7 @@
                     <a href="https://www.maths.ox.ac.uk/people/jared.tanner"> Jared Tanner</a>
                 </p>
 
-            </li>
+            </li> -->
         </ul>
     </div>
     <custom-footer></custom-footer>
